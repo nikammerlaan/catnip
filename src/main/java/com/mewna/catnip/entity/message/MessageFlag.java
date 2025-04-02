@@ -49,6 +49,7 @@ public enum MessageFlag {
     EPHEMERAL(1 << 6, true),
     LOADING(1 << 7, false),
     FAILED_TO_MENTION_SOME_ROLES_IN_THREAD(1 << 8, false),
+    SUPPRESS_NOTIFICATIONS(1 << 12, true),
     ;
     
     @Getter
